@@ -9,9 +9,15 @@ Studio starter for React based projects.
 
 ## Installation
 
-- You can clone this repository directly
-- `npx starter3000 your-directory-name`
-- husky not working? make sure after reinitializing `git`, to run `yarn` to
+**option A** You can clone this repository directly
+
+**option B**
+- `npm install -g starter3000` or `yarn global add starter3000`
+- then in the directory where you want to start the project, run `npx starter3000 your-directory-name`
+- cd to `your-directory-name`
+- run `yarn dev`
+
+husky not working? make sure after reinitializing `git`, to run `yarn` to
   reinstall husky's pre-commit hooks
 
 ## Notes
