@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'FontName';
+  src: url('../public/fonts/pathToFont.woff') format('woff'),
+    url('../public/fonts/pathToFont.woff2') format('woff2');
+  font-display: fallback;
+  font-weight: 485;
+  font-style: normal;
+}
