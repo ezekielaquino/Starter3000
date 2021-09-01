@@ -10,13 +10,14 @@ class Site extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link
+          {/* Note: uncomment to preload custom fonts, replace with correct path to asset */}
+          {/* <link
             rel="preload"
             href="/fonts/pathToFont.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
-          />
+          /> */}
         </Head>
         <body>
           <Main />
