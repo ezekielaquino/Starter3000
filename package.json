@@ -3,7 +3,10 @@
   "homepage": "https://github.com/ezekielaquino/Starter3000",
   "author": "Ezekiel Aquino (https://ezekielaquino.com)",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "bin": {
+    "starter3000": "./starter3000.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
