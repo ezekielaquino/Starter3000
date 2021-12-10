@@ -19,8 +19,7 @@
     "jsx": "preserve",
     "downlevelIteration": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "jsxImportSource": "@emotion/react"
+    "noUnusedParameters": true
   },
   "exclude": ["node_modules", "sanity"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"]
