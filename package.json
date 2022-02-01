@@ -3,7 +3,7 @@
   "homepage": "https://github.com/ezekielaquino/Starter3000",
   "author": "Ezekiel Aquino (https://ezekielaquino.com)",
   "license": "MIT",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "bin": {
     "starter3000": "./npx.js"
   },
@@ -14,7 +14,6 @@
     "prepare": "husky install",
     "format": "prettier --write .",
     "lint": "eslint --fix",
-    "postinstall": "yarn prepare",
     "pre-commit": "lint-staged && yarn tsc"
   },
   "dependencies": {
