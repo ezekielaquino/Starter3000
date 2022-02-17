@@ -19,7 +19,8 @@
     "jsx": "preserve",
     "downlevelIteration": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "incremental": true
   },
   "exclude": ["node_modules", "sanity"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"]

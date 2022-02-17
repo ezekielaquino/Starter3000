@@ -2,6 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   target: 'serverless',
+  swcMinify: true,
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
