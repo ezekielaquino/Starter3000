@@ -10,8 +10,6 @@ const nextConfig = {
     };
 
     config.module.rules.push({
-      // Test for a polyfill (or any file) and it won't be included in your
-      // bundle
       test: /node_modules\/paper\/dist\/node\/extend.js$/,
       use: 'null-loader',
     });

@@ -1,5 +1,7 @@
 'use client';
 
+// @refresh reset
+
 import {useEffect, useRef} from 'react';
 import styles from './Composition.module.scss';
 import {init} from './sketch';
